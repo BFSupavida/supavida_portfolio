@@ -28,6 +28,10 @@
     transition: 0.3s;
   }
 
+  .nav__link:hover {
+    color: hsl(43, 100%, 68%);
+  }
+
   
 .copyright {
     color: hsl(245, 15%, 65%);
@@ -35,3 +39,4 @@
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
   }
+
