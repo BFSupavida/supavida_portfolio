@@ -4,10 +4,13 @@ import Me from "../../assets/avatar-1.svg"
 import { HeaderSocials } from './HeaderSocials'
 import { ScrollDown } from './ScrollDown'
 import { Shapes } from './Shapes'
+import { Sidebar } from '../sidebar/Sidebar'
 
 
 export const Home = () => {
   return (
+    <>
+    <Sidebar />
     <section className="home conainer" id='home'>
       <div className="intro">
         <img src={Me} alt="" className="home__img" />
@@ -15,12 +18,13 @@ export const Home = () => {
         <span className="home__education">I'm a Full-stack developer</span>
         <p className='status'>Open to work</p>
         <HeaderSocials />
-        <a href="#contact" className="btn">Hire Me!</a>
-        <ScrollDown />
+        <a href="#contact" className="btn">My resume</a>
+        {/* <ScrollDown /> */}
 
       </div>
 
       <Shapes />
-    </section>
+    </section></>
+    
   )
 }
