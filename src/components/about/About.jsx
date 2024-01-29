@@ -6,7 +6,8 @@ import { Sidebar } from '../sidebar/Sidebar'
 
 export const About = () => {
   return (
-    <><Sidebar />
+    <>
+    <Sidebar />
     <section className="about container section" id='about'>
       
       <h2 className="section__title">About Me</h2>

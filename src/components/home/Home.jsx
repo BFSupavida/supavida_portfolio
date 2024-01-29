@@ -2,12 +2,14 @@ import React from 'react'
 import "./home.css"
 import Me from "../../assets/avatar-1.svg"
 import { HeaderSocials } from './HeaderSocials'
-import { ScrollDown } from './ScrollDown'
 import { Shapes } from './Shapes'
 import { Sidebar } from '../sidebar/Sidebar'
+import Resume from "../../assets/Supavida_Itthirak_Full-stack_Resume.pdf"
 
 
 export const Home = () => {
+  // const downloadResume = async () => {
+  //   window.open('../../assets/Supavida_Itthirak_Full-stack_Resume.pdf', '_blank');
   return (
     <>
     <Sidebar />
@@ -18,7 +20,7 @@ export const Home = () => {
         <span className="home__education">I'm a Full-stack developer</span>
         <p className='status'>Open to work</p>
         <HeaderSocials />
-        <a href="#contact" className="btn">My resume</a>
+        <a href={Resume} className="btn" target='_blank' >My resume</a>
         {/* <ScrollDown /> */}
 
       </div>
@@ -28,3 +30,4 @@ export const Home = () => {
     
   )
 }
+// }
