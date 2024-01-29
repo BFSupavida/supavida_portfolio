@@ -29,10 +29,10 @@ export const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">Education</h3>
-                <h4>Thammasat University</h4>
-                <h5>Bachelor of Liberal Arts. (Russian Language)</h5>
-                <h6>Aug 2018 - May 2022</h6>
-                <p>GPA : 3.34</p>
+                <p className='university_name'>Thammasat University</p>
+                <p className='bachelor_name'>Bachelor of Liberal Arts. (Russian Language)</p>
+                <p className='duration_education'>Aug 2018 - May 2022</p>
+                <p className='gpa'>GPA : 3.34</p>
               </div>
               <div className="skill__bar">
                 <span className='skills__percentage'></span>
