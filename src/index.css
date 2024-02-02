@@ -1,5 +1,7 @@
-/*Google Fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
 
 /*Variables CSS*/
 :root {
@@ -9,6 +11,7 @@
   --text-color: hsl(244, 16%, 43%);
   --body-color: hsl(258, 60%, 98%);
   --container-color: #fff;
+  --border-color: rgba(0, 0, 0, 0.05);
 
   /*Font and typo*/
   --body-font: "Rubik", san-serif;
@@ -155,4 +158,4 @@ img {
 
 .btn:hover {
   animation: button-push 0.3s linear 1;
-}
+} 
