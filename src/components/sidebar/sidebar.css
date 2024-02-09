@@ -1,3 +1,8 @@
+/* .box-sidebar {
+  position: sticky;
+  top: 0;
+} */
+
 .aside {
     position: absolute;
     left: 0;
