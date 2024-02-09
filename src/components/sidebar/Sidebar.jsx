@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Sidebar.css";
+import "./sidebar.css";
 import LightLogo from "../../assets/Bai_Logo.png";
 
 import {
