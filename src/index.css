@@ -1,3 +1,10 @@
+/*import tailwind*/
+/* index.css or main.scss */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
 /* Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
@@ -32,6 +39,18 @@
 
   /*Border radius*/
   --border-radius: 20px;
+}
+
+/* dark theme */
+[data-theme="dark"] {
+  --first-color: hsl(353, 100%, 65%);
+  --title-color: hsl(218, 11%, 69%);
+  --text-color: hsl(0, 0%, 100%);
+  --body-color: hsl(0, 0%, 12.5%);
+  --container-color: hsl(0, 0%, 22%);
+
+  --shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.2);
+  --border-color: rgba(167, 174, 185, 0.1);
 }
 
 /*responsive*/
@@ -127,6 +146,17 @@ img {
 .section__title::before {
   content: "";
   background: url(./assets//dots-bg.svg);
+  height: 2.25rem;
+  width: 2.25rem;
+  position: absolute;
+  left: -0.875rem;
+  top: -0.875rem;
+}
+
+/* dark .section__title */
+[data-theme="dark"] .section__title::before {
+  content: "";
+  background: url(./assets/dots-bg-dark.svg);
   height: 2.25rem;
   width: 2.25rem;
   position: absolute;

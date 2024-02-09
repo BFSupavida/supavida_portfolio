@@ -1,0 +1,43 @@
+.sum_iconskills {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.iconskills {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 20vh;
+    transition: box-shadow 0.3s;
+}
+
+.iconskills:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เงาที่เพิ่มขึ้นเมื่อ hover */
+}
+
+.certification-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.langusgesskills {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text
+}
+
+.bullet {
+    margin-top: 2rem;
+}

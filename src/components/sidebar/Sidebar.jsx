@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Sidebar.css";
-import Logo from "../../assets/logo.svg";
-import LightLogo from "../../assets/light-logo.svg";
+import LightLogo from "../../assets/Bai_Logo.png";
+
 
 import {
   RiHome2Line,
@@ -9,8 +9,6 @@ import {
   RiStackLine,
   RiChat3Line,
   RiFileList3Line,
-  RiMoonLine,
-  RiSunLine,
   RiMenu2Line,
 } from "react-icons/ri";
 
@@ -20,8 +18,8 @@ export const Sidebar = (props) => {
   return (
     <>
       <aside className={toggle ? "aside show-menu" : "aside"}>
-        <a href="#home" className="nav__logo">
-          <img src={props.theme === "light" ? LightLogo : Logo} alt="logo" />
+        <a href={"/"} className="nav__logo">
+          <img className="logo-1" src={LightLogo} alt="logo" />
         </a>
 
         <nav className="nav">
@@ -40,7 +38,7 @@ export const Sidebar = (props) => {
               </li>
 
               <li className="nav__item">
-                <a href="#services" className="nav__link">
+                <a href={'/skills'} className="nav__link">
                   <RiFileList3Line />
                 </a>
               </li>
@@ -52,7 +50,7 @@ export const Sidebar = (props) => {
               </li>
 
               <li className="nav__item">
-                <a href="#contact" className="nav__link">
+                <a href={"/contact"} className="nav__link">
                   <RiChat3Line />
                 </a>
               </li>
@@ -62,15 +60,6 @@ export const Sidebar = (props) => {
 
         <div className="nav__footer">
         <span className="copyright">&copy; 2024</span>
-          <button
-            onClick={() => {
-              props.switchTheme();
-              showMenu(!toggle);
-            }}
-            className="nav__link footer__button"
-          >
-            {props.theme === "light" ? <RiMoonLine /> : <RiSunLine />}
-          </button>
         </div>
       </aside>
 

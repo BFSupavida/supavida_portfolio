@@ -1,0 +1,37 @@
+.contact_form {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 50vh;
+}
+
+.topic_request {
+    font-weight: bold;
+}
+
+.input_request {
+    width: 300px; /* Adjust width as needed */
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+    outline: none;
+}
+
+.input_request_textarea {
+    width: 300px; /* Adjust width as needed */
+    height: 80px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+    outline: none;
+}
+
+.box_btn {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 1rem;
+}
