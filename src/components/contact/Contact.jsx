@@ -1,6 +1,7 @@
 import React from "react";
 import { Sidebar } from "../sidebar/Sidebar";
 import "./contact.css";
+import { Shapes } from "../home/Shapes";
 
 export function Contact() {
   const onSubmit = async (event) => {
@@ -51,6 +52,7 @@ export function Contact() {
             </div>
           </form>
         </div>
+        <Shapes />
       </section>
     </div>
   );

@@ -3,6 +3,7 @@ import "./about.css";
 
 import Image from "../../../public/assets/avatar/avatar-1.svg";
 import { Sidebar } from "../sidebar/Sidebar";
+import { Shapes } from "../home/Shapes";
 
 export const About = () => {
   return (
@@ -33,6 +34,7 @@ export const About = () => {
           </div>
         </div>
       </section>
+      {/* <Shapes /> */}
     </div>
   );
 };
