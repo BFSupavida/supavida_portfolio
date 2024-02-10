@@ -1,6 +1,15 @@
 import React from "react";
 import { Sidebar } from "../sidebar/Sidebar";
 import "./skills.css"
+import img_html from "../../../public/assets/iconskills/icons8-html.svg"
+import img_css from "../../../public/assets/iconskills/icons8-css3.svg";
+import img_javascript from "../../../public/assets/iconskills/icons8-javascript-100.svg";
+import img_react from "../../../public/assets/iconskills/icons8-react.svg";
+import img_node from "../../../public/assets/iconskills/icons8-nodejs-100.svg";
+import img_express from "../../../public/assets/iconskills/icons8-express-js.svg";
+import img_boostrap from "../../../public/assets/iconskills/icons8-bootstrap.svg";
+import img_tailwind from "../../../public/assets/iconskills/icons8-tailwind-css.svg";
+
 
 export const Skills = () => {
   return (
@@ -10,7 +19,7 @@ export const Skills = () => {
         <h2 className="section__title flex-container">Skills</h2>
         <div className="sum_iconskills">
           <div className="iconskills">
-          <img src="../../../public/assets/iconskills/icons8-html.svg" alt="icon-html" />
+          <img src={img_html} alt="icon-html" />
           <p>HTML</p>
         </div>
         <div className="iconskills">
@@ -27,7 +36,7 @@ export const Skills = () => {
         </div>
         <div className="iconskills">
           <img src="../../../public/assets/iconskills/icons8-nodejs-100.svg" alt="icon-node" />
-          <p>Node</p>
+          <p>Node.js</p>
         </div>
         <div className="iconskills">
           <img src="../../../public/assets/iconskills/icons8-express-js.svg" alt="icon-expressjs" />
