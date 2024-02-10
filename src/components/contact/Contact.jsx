@@ -24,33 +24,34 @@ export function Contact() {
     if (res.success) {
       console.log("Success", res);
     }
-    
   };
 
   return (
-    <section className="contact container section">
+    <div>
       <Sidebar />
-      <h2 className="section__title flex-container">Contact</h2>
-      <div className="contact_form">
-        <p></p>
-        <form className="" onSubmit={onSubmit}>
-          <p className="topic_request">Name</p>
-          <input className="input_request" type="text" name="name" />
-          <p className="topic_request">Email</p>
-          <input className="input_request" type="email" name="email" />
-          <p className="topic_request">More details as you wish</p>
-          <textarea
-            className="input_request_textarea"
-            name="message"
-          ></textarea>
-          <br />
-          <div className="box_btn">
-            <button className="btn" type="submit">
-              Submit Form
-            </button>
-          </div>
-        </form>
-      </div>
-    </section>
+      <section className="contact container section">
+        <h2 className="section__title flex-container">Contact</h2>
+        <div className="contact_form">
+          <p></p>
+          <form className="" onSubmit={onSubmit}>
+            <p className="topic_request">Name</p>
+            <input className="input_request" type="text" name="name" />
+            <p className="topic_request">Email</p>
+            <input className="input_request" type="email" name="email" />
+            <p className="topic_request">More details as you wish</p>
+            <textarea
+              className="input_request_textarea"
+              name="message"
+            ></textarea>
+            <br />
+            <div className="box_btn">
+              <button className="btn" type="submit">
+                Submit Form
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
   );
 }
