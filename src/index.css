@@ -131,7 +131,6 @@ img {
 }
 
 .section {
-  padding-top: 7rem;
   padding-bottom: 2rem;
 }
 
@@ -141,16 +140,17 @@ img {
   font-weight: var(--font-bold);
   position: relative;
   margin-bottom: 3.75rem;
+  padding-top: 8rem;
 }
 
 .section__title::before {
   content: "";
-  background: url(./assets//dots-bg.svg);
+  background: url(../public/assets/dots-bg.svg);
   height: 2.25rem;
   width: 2.25rem;
   position: absolute;
   left: -0.875rem;
-  top: -0.875rem;
+  top: 7rem;
 }
 
 /* dark .section__title */

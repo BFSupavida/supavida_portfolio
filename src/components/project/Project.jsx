@@ -9,7 +9,7 @@ export const Project = () => {
   return (
     <section className="blog container section" id="blog">
       <Sidebar />
-      <h2 className="section__title flex-container" >Recent Works</h2>
+      <h2 className="section__title">Recent Works</h2>
       {/* project 1 */}
       <div className="blog__container">
         <div className="blog__card">
