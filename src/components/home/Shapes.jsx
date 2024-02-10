@@ -15,7 +15,6 @@ export const Shapes = () => {
                     fill-rule="evenodd"
                 />
             </svg>
-
             <svg
                 width="26"
                 height="26"
@@ -30,7 +29,6 @@ export const Shapes = () => {
                     fill-rule="evenodd"
                 />
             </svg>
-
             <svg
                 width="30"
                 height="25"
@@ -43,7 +41,6 @@ export const Shapes = () => {
                     fill-rule="evenodd"
                 />
             </svg>
-
             <svg
                 width="15"
                 height="23"
@@ -60,7 +57,6 @@ export const Shapes = () => {
                     fill-rule="evenodd"
                 />
             </svg>
-
             <svg
                 width="15"
                 height="23"
@@ -77,7 +73,6 @@ export const Shapes = () => {
                     fill-rule="evenodd"
                 />
             </svg>
-
             <svg
                 width="49"
                 height="17"
@@ -89,7 +84,6 @@ export const Shapes = () => {
                     <path d="M23.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C46.1175 5.50106 48.5 10.78292 48.5 16.5H46c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0-3.09375 2.28651-5 6.51232-5 11.08535h-2.5z" />
                 </g>
             </svg>
-
             <svg
                 width="26"
                 height="26"
@@ -104,7 +98,6 @@ export const Shapes = () => {
                     fill-rule="evenodd"
                 />
             </svg>
-
             <svg
                 width="19"
                 height="21"
@@ -121,7 +114,6 @@ export const Shapes = () => {
                     fill-rule="evenodd"
                 />
             </svg>
-
             <svg
                 width="30"
                 height="25"
@@ -134,7 +126,6 @@ export const Shapes = () => {
                     fill-rule="evenodd"
                 />
             </svg>
-
             <svg
                 width="47"
                 height="29"
@@ -146,7 +137,6 @@ export const Shapes = () => {
                     <path d="M25.17585 9.32448c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36264-9.0893-.26708-11.74616-4.27525C.16049 11.92447-.27182 6.14628 1.68354.77398l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12692 2.12514 3.20675 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40948 8.48988-8.70672l2.34923.85505z" />
                 </g>
             </svg>
-
             <svg
                 width="33"
                 height="20"

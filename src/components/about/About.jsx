@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css"
 
-import Image from "../../assets/avatar-2.svg"
+import Image from "../../../public/assets/avatar/avatar-1.svg"
 import { Sidebar } from '../sidebar/Sidebar'
 
 export const About = () => {

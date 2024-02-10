@@ -1,7 +1,7 @@
 import React from "react";
 import { Sidebar } from "../sidebar/Sidebar";
-import image1 from "../../assets/homepage_jsd6_finalproject.png"
-import image2 from "../../assets/tictactoe_bybai.png"
+import image1 from "../../../public/assets/project/homepage_jsd6_finalproject.png"
+import image2 from "../../../public/assets/project/tictactoe_bybai.png"
 import "./project.css"
 import { Shapes } from "../home/Shapes";
 

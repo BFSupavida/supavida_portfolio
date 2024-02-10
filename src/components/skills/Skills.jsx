@@ -10,51 +10,51 @@ export const Skills = () => {
         <h2 className="section__title flex-container">Skills</h2>
         <div className="sum_iconskills">
           <div className="iconskills">
-          <img src="/src/assets/iconskills/icons8-html.svg" alt="icon-html" />
+          <img src="/public/assets/iconskills/icons8-html.svg" alt="icon-html" />
           <p>HTML</p>
         </div>
         <div className="iconskills">
-          <img src="/src/assets/iconskills/icons8-css3.svg" alt="icon-css" />
+          <img src="/public/assets/iconskills/icons8-css3.svg" alt="icon-css" />
           <p>CSS</p>
         </div>
         <div className="iconskills">
-          <img src="/src/assets/iconskills/icons8-javascript-100.svg" alt="icon-javascript" />
+          <img src="/public/assets/iconskills/icons8-javascript-100.svg" alt="icon-javascript" />
           <p>JavaScript</p>
         </div>
         <div className="iconskills">
-          <img src="/src/assets/iconskills/icons8-react.svg" alt="icon-react" />
+          <img src="/public/assets/iconskills/icons8-react.svg" alt="icon-react" />
           <p>React</p>
         </div>
         <div className="iconskills">
-          <img src="/src/assets/iconskills/icons8-nodejs-100.svg" alt="icon-node" />
+          <img src="/public/assets/iconskills/icons8-nodejs-100.svg" alt="icon-node" />
           <p>Node</p>
         </div>
         <div className="iconskills">
-          <img src="/src/assets/iconskills/icons8-express-js.svg" alt="icon-expressjs" />
+          <img src="/public/assets/iconskills/icons8-express-js.svg" alt="icon-expressjs" />
           <p>ExpressJS</p>
         </div>
         <div className="iconskills">
-          <img src="/src/assets/iconskills/icons8-bootstrap.svg" alt="icon-boostrap" />
+          <img src="/public/assets/iconskills/icons8-bootstrap.svg" alt="icon-boostrap" />
           <p>Boostrap</p>
         </div>
         <div className="iconskills">
-          <img src="/src/assets/iconskills/icons8-tailwind-css.svg" alt="icon-html" />
+          <img src="/public/assets/iconskills/icons8-tailwind-css.svg" alt="icon-html" />
           <p>Tailwind</p>
         </div>
         <div className="iconskills">
-          <img src="/src/assets/iconskills/icons8-mongodb.svg" alt="icon-html" />
+          <img src="/public/assets/iconskills/icons8-mongodb.svg" alt="icon-html" />
           <p>MongoDB</p>
         </div>
         <div className="iconskills">
-          <img src="/src/assets/iconskills/icons8-github.svg" alt="icon-GitHub" />
+          <img src="/public/assets/iconskills/icons8-github.svg" alt="icon-GitHub" />
           <p>GitHub</p>
         </div>
         <div className="iconskills">
-          <img src="/src/assets/iconskills/icons8-figma.svg" alt="icon-Figma" />
+          <img src="/public/assets/iconskills/icons8-figma.svg" alt="icon-Figma" />
           <p>Figma</p>
         </div>
         <div className="iconskills">
-          <img src="/src/assets/iconskills/icons8-trello.svg" alt="icon-trello" />
+          <img src="/public/assets/iconskills/icons8-trello.svg" alt="icon-trello" />
           <p>Trello</p>
         </div>
         </div>

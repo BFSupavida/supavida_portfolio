@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./sidebar.css";
-import LightLogo from "../../assets/Bai_Logo.png";
+import LightLogo from "../../../public/assets/logo/Bai_Logo.png";
+
 
 import {
   RiHome2Line,

@@ -1,10 +1,10 @@
 import React from "react";
 import "./home.css";
-import Me from "../../assets/avatar-1.svg";
+import Me from "../../../public/assets/avatar/avatar-2.svg";
 import { HeaderSocials } from "./HeaderSocials";
 import { Shapes } from "./Shapes";
 import { Sidebar } from "../sidebar/Sidebar";
-import Resume from "../../assets/Supavida_Itthirak_Full-stack_Resume.pdf";
+import Resume from "../../../public/assets/resume/Supavida_Itthirak_Resume.pdf";
 
 export const Home = () => {
   return (
