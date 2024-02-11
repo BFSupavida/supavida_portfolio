@@ -35,3 +35,14 @@
     align-items: center;
     margin-top: 1rem;
 }
+
+.before_contact_form {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    gap: 1rem;
+}
+
+/* .light_bulb:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+} */
