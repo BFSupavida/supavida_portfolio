@@ -46,7 +46,10 @@ export function Contact() {
       <section className="contact container section">
         <h2 className="section__title flex-container">Contact</h2>
         <div className="before_contact_form">
-          <img className="light_bulb" src={light} alt="light_bulb" />
+          <div className="light-blub">
+            <img className="light_bulb" src={light} alt="light_bulb" />
+          </div>
+          
           <div>
             <h3>If you want to know more about me ?</h3>
             <h3>Let's get in on</h3>
