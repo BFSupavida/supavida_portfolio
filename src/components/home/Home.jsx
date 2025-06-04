@@ -14,7 +14,7 @@ export const Home = () => {
         <div className="intro">
           {/* <img src={Me} alt="" className="home__img" /> */}
           <h1 className="home__name">Supavida Itthirak</h1>
-          <span className="home__education">I'm a Full-stack developer</span>
+          <span className="home__education">I'm a Software Tester</span>
           <p className="status">Open to work</p>
           <HeaderSocials />
           <a href={Resume} className="btn" target="_blank">
