@@ -18,15 +18,15 @@ export const About = () => {
           <div className="box">
             <div className="about__info">
               <p className="about__description">
-                I am Supavida Itthirak (BaiFern), a dedicated full-stack web
-                developer based in Thailand. I am driven by a profound passion
+                I am Supavida Itthirak (BaiFern), a dedicated Software Tester
+                 based in Thailand. I am driven by a profound passion
                 for crafting innovative products, with the ultimate goal of
                 contributing to a better world through technology.
               </p>
               <h3 className="skills__name">Education</h3>
               <p className="university_name">Thammasat University</p>
               <p className="bachelor_name">
-                Bachelor of Liberal Arts. (Russian Language)
+                Bachelor of Liberal Arts.
               </p>
               <p className="duration_education">Aug 2018 - May 2022</p>
               <p className="gpa">GPA : 3.34</p>

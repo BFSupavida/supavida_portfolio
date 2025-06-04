@@ -5,6 +5,7 @@ import image2 from "../../../public/assets/project/tictactoe_bybai.png";
 import "./project.css";
 import { Shapes } from "../home/Shapes";
 
+
 export const Project = () => {
   return (
     <div>
@@ -12,7 +13,9 @@ export const Project = () => {
       <section className="blog container section" id="blog">
         <h2 className="section__title">Recent Works</h2>
         {/* project 1 */}
-        <div className="blog__container">
+        <div className="all_project">
+
+          <div className="blog__container">
           <div className="blog__card">
             <div className="blog__thumb">
               {/* <a href="#">
@@ -25,7 +28,7 @@ export const Project = () => {
             <div className="blog__details">
               <h3 className="blog__title">LunarFit Workout Web App</h3>
               <div className="blog__meta">
-                <p>
+                <p className="">
                   We are proud to present LunarFit Web App, our innovative
                   workout web app designed to elevate your fitness journey. Join
                   us for your health. Let's work out to the moon! 🚀💪
@@ -57,9 +60,8 @@ export const Project = () => {
               <h3 className="blog__title">Tic Tac Toe by Bai</h3>
               <div className="blog__meta">
                 <p>
-                  We are proud to present LunarFit Web App, our innovative
-                  workout web app designed to elevate your fitness journey. Join
-                  us for your health. Let's work out to the moon! 🚀💪
+                Experience the classic thrill of Tic Tac Toe on our website! Play anytime, anywhere for endless fun.
+                Hope you enjoy the game!!
                 </p>
                 <p>HTML, CSS and JavaScript</p>
                 <span>05 January, 2024</span>
@@ -67,6 +69,8 @@ export const Project = () => {
             </div>
           </div>
         </div>
+        </div>
+        
         {/* <Shapes /> */}
         <div className="work__container grid"></div>
       </section>

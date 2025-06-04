@@ -3,6 +3,14 @@
   margin-bottom: 15px;
   flex-direction: row;
   padding-top: 0%;
+  width: 500px;
+}
+
+.all_project {
+  display: flex;
+  gap: 5rem;
+  /* flex-wrap: wrap; */
+  /* background-color: var(--container-color); */
 }
 
 .blog__card {
@@ -19,12 +27,14 @@
 .blog__details {
   background-color: var(--container-color);
   padding: 1.25rem;
+  height: auto;
 }
 
 a {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center;
+  /* height: 500px; */
 }
 
 Shapes {
