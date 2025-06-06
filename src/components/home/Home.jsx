@@ -4,7 +4,7 @@ import Me from "../../../public/assets/avatar/avatar-2.svg";
 import { HeaderSocials } from "./HeaderSocials";
 import { Shapes } from "./Shapes";
 import { Sidebar } from "../sidebar/Sidebar";
-import Resume from "../../../public/assets/resume/Supavida_Itthirak_Resume.pdf";
+import Resume from "../../../public/assets/resume/Supavida_Itthirak_Resume.pdf"
 
 export const Home = () => {
   return (
